@@ -5,9 +5,9 @@ $con = new database();
 session_start();
 
 
-if (empty($_SESSION['user'])){
-  header('location:login.php');
-}
+// if (empty($_SESSION['user'])){
+//   header('location:login.php');
+// }
 
 if(isset($_POST['del'])){
     $user_id = $_POST['id'];
